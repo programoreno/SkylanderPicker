@@ -67,8 +67,8 @@ const ROSTER = {
     muertos: ['Krypt King', 'Short Cut', 'Funny Bone', 'Bat Spin', 'Hijinx', 'Eye Small', 'Nitro Krypt King'],
     aire: ['Gusto', 'Thunderbolt', 'Full Blast Jet-Vac', 'Fling Kong', 'Blades', 'Pet Vac', 'Breeze', 'Legendary Blades', 'Power Punch Pet Vac'],
     vida: ['Tuff Luck', 'Bushwhack', 'Sure Shot Shroomboom', 'Food Fight', 'High Five', 'Whisper Elf', 'Barkley', 'Dark Food Fight', 'Legendary Bushwhack', 'Gnarly Barkley'],
-    oscuridad: ['Knight Light', 'Spotlight'],
-    luz: ['Knight Mare', 'Blackout'],
+    luz: ['Knight Light', 'Spotlight'],
+    oscuridad: ['Knight Mare', 'Blackout'],
   },
   superchargers: {
     magia: ['Splat', 'Big Bubble Pop Fizz', 'Power Blue Splat', 'Birthday Bash Big Bubble Pop Fizz'],
