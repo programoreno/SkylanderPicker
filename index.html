@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skylanders — El Picker Definitivo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner-beta">
+        Este proyecto sigue en beta, ¡gracias por probarlo!
+    </div>
+<div class="wrap">
+  <header>
+    <h1>El Picker Definitivo de <span>Skylanders</span></h1>
+  </header>
+
+  <div class="toolbar">
+    <button id="btn-autofill">🌀 Rellenar vacíos al azar</button>
+    <button id="btn-clear" class="danger">🗑️ Vaciar todo</button>
+  </div>
+
+  <div class="board-scroll" id="board-scroll">
+    <table class="board" id="board"></table>
+  </div>
+
+  <div class="mobile-view" id="mobile-view">
+    <div class="mobile-tabs" id="mobile-tabs"></div>
+    <div class="mobile-cards" id="mobile-cards"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="eyebrow" id="modal-eyebrow">Elemento · Saga</div>
+      <h3 id="modal-title">Elige tu favorito</h3>
+      <input type="text" class="modal-search" id="modal-search" placeholder="Buscar...">
+    </div>
+    <div class="modal-list" id="modal-list"></div>
+    <div class="modal-foot">
+      <button id="modal-clear-pick">Quitar selección de esta casilla</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
